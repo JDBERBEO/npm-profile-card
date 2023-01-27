@@ -1,0 +1,49 @@
+{
+  "name": "jdberbeo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/bin/card.js",
+  "scripts": {
+    "test": "echo \"pending...\"",
+    "lint": "eslint --ext .js, bin/card.js",
+    "lint:fix": "eslint --ext .js, bin/card.js --fix"
+  },
+  "type": "module",
+  "bin": {
+    "jdberbeo": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDBERBEO/npm-profile-card.git"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm",
+    "card",
+    "npx.",
+    "npx",
+    "card",
+    "business",
+    "card"
+  ],
+  "author": "JUAN\u001b[F\u001b[B\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C_DAVID_BERBEO jd.berbeo@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JDBERBEO/npm-profile-card/issues"
+  },
+  "homepage": "https://github.com/JDBERBEO/npm-profile-card#readme",
+  "dependencies": {
+    "boxen": "^7.0.1",
+    "chalk": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.4.1",
+    "np": "^7.6.3"
+  }
+}
